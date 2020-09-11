@@ -16,9 +16,13 @@ module.exports = {
     docsDir: 'docs',
     repo: 'chenronghui/vue3-analysis',
     nav: [{
-      text: '指南',
+      text: 'vue3指南',
       link: '/v3/prepare/'
-    }, ],
+    },{
+      text: '随记',
+      link: '/mind/canvas/'
+    },
+   ],
     sidebar: {
       '/v3/': [
         {
@@ -29,6 +33,15 @@ module.exports = {
             'prepare/app',
             'prepare/createAppAPI',
             'prepare/createVNode',
+          ]
+        }, 
+      ] ,
+      '/mind/': [
+        {
+          title: 'canvas',
+          collapsable: false,
+          children: [
+            ['canvas/', 'canvas 实现文字流光效果'],
           ]
         }, 
       ]
