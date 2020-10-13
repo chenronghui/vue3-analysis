@@ -44,6 +44,14 @@ module.exports = {
             ['canvas/', 'canvas 实现文字流光效果'],
           ]
         }, 
+        {
+          title: 'touch',
+          collapsable: false,
+          children: [
+            ['toucharmer/', 'vue 手势指令'],
+            ['toucharmer/flipBook', 'vue 翻书组件'],
+          ]
+        }, 
       ]
     }
   }
